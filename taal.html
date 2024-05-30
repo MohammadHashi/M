@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nederlands Taal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nederlands Taal</h1>
+        
+        <!-- Dropdown to select the group -->
+        <select id="group-select">
+            <option value="0">Theme 1</option>
+            <option value="1">Group 2</option>
+            <option value="2">Group 3</option>
+            <!-- Add options up to 20 groups -->
+            <option value="19">Group 20</option>
+        </select>
+
+        <div id="sentence-display" class="sentence">Hoe gaat het?</div>
+        <div id="translation-display" class="translation">كيف حالك؟</div>
+        <div class="buttons">
+            <button id="prev-button">Vorige</button>
+            <button id="play-button">Luisteren</button>
+            <button id="next-button">Volgende</button>
+        </div>
+        
+        <div class="check-sentence">
+            <button id="record-button">Record</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
